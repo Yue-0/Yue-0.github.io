@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人主页 - [您的姓名]</title>
+    <title>Yue Lin</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -82,8 +82,8 @@
 </head>
 <body>
     <header>
-        <img src="您的照片.jpg" alt="[您的姓名]">
-        <h1>[您的姓名]</h1>
+        <img src="me.jpg" alt="Yue Lin">
+        <h1>Yue Lin</h1>
         <p>机器人领域 | 第二年硕士生 | 大连理工大学</p>
     </header>
 
