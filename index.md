@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -101,41 +101,47 @@
             <div class="publication-item">
                 <strong>Safety-First Tracker: A Trajectory Planning Framework for Omnidirectional Robot Tracking</strong><br>
                 <i>IROS 2024, 第一作者</i><br>
+                为了让机器人自动跟随目标并避免碰撞，现有的方法需要联合优化多个目标函数，难以保证最优性。本文设计了一种新的两阶段轨迹规划框架，优先保证机器人的轨迹安全性，然后规划机器人的朝向以保证目标可视性。现实世界的实验证明了本文提出的方法在复杂的动态环境中的适用性。
                 <!-- <a href="论文链接地址" target="_blank">点击阅读论文</a> -->
             </div>
             <div class="publication-item">
                 <strong>Eva-Tracker: An ESDF-update-free Approach for Aerial Tracking with Visibility-aware Planning</strong><br>
                 <i>ICRA 2025 在投, 第一作者</i><br>
+                对于机器人自动跟随目标，现有的方法大多需要依赖实时更新的 ESDF 来实现轨迹安全性和目标可视性，然而实时更新 ESDF 需要大量计算。本文提出了一种用于空中跟随的无需 ESDF 更新的轨迹优化方法，能够在保持性能的前提下大大降低计算量。现实世界的实验表明本文的方法在无人机目标跟随任务上取得了成功。
                 <!-- <a href="论文链接地址" target="_blank">点击阅读论文</a> -->
             </div>
         </section>
 
         <section id="projects">
             <h2>项目经历</h2>
-            <div class="flex-container">
-                <div class="project-item">
-                    <strong>开放环境多智能体群智对抗博弈理论方法及应用</strong><br>
-                    国家自然科学基金委员会重大项目，清华大学深圳国际研究生院合作项目。<br>
-                    负责智能体在复杂环境中的自主运动规划算法的开发。<br>
-                    <!-- <a href="项目链接地址" target="_blank">查看详情</a> -->
-                </div>
-                <div class="project-item">
-                    <strong>基于 Transformer 的轻量化目标跟踪方法研究</strong><br>
-                    横向项目，中国北方车辆研究所合作项目。
-                    开发了一套高精度轻量化单目标跟踪模型，模型在Jetson Orin NX边缘计算设备上的纯推理速度达到了111 FPS，比此前最快的高精度模型快45%，模型在LaSoT数据集上的成功率（AUC）仅下降2%。<br>
-                    <!-- <a href="项目链接地址" target="_blank">查看详情</a> -->
-                </div>
+            <div class="project-item">
+                <b>单智能体主动感知和对抗博弈建模学习</b><br>
+                <i>国家自然科学基金委员会重大项目。</i><br>
+                担任该项目技术负责人。负责单机器人在对抗博弈场景下的软硬件系统开发及感知、规划、决策等算法的研发。基于 ROS 设计了完整的用于机器人博弈的系统，将 YOLOv6、HiT 等检测跟踪算法和 FastPlanner 等规划算法集成部署到了 Orin 上，并和团队成员共同完成了决策算法的研发。目前，该项目已具备稳定的后端算法和前端界面。<br>
+                <!-- <a href="项目链接地址" target="_blank">查看详情</a> -->
+            </div>
+            <div class="project-item">
+                <strong>开放环境多智能体群智对抗博弈理论方法及应用</strong><br>
+                <i>国家自然科学基金委员会重大项目，清华大学深圳国际研究生院交流合作项目。</i><br>
+                担任规划控制组技术负责人，兼任视觉感知组技术负责人。负责开发全向移动机器人在带有坡道和窄道的环境中的自主运动规划算法。<br>
+                <!-- <a href="项目链接地址" target="_blank">查看详情</a> -->
+            </div>
+            <div class="project-item">
+                <strong>基于 Transformer 的轻量化目标跟踪方法研究</strong><br>
+                中国北方车辆研究所合作项目。<br>
+                负责开发鲁棒的高精度轻量化单目标跟踪模型，并在 JetSon Orin NX 边缘计算设备上部署。<br>
+                <!-- <a href="项目链接地址" target="_blank">查看详情</a> -->
             </div>
         </section>
 
         <section id="competitions">
-            <h2>竞赛经历</h2>
+            <h2>竞赛成果</h2>
             <ul>
                 <li>ICRA 2022 Sim2Real 挑战赛，第四名</li>
                 <li>第 12 届蓝桥杯 Python 大学 A 组全国总决赛，二等奖</li>
-                <li>第 12 届全国大学生数学竞赛，二等奖</li>
-                <li>第 13 届全国大学生数学竞赛，二等奖</li>
-                <li>2022 年中国大学生计算机设计大赛，二等奖</li>
+                <li>2022 年中国大学生计算机设计大赛，全国二等奖</li>
+                <li>第 13 届全国大学生数学竞赛，全国二等奖</li>
+                <li>第 12 届全国大学生数学竞赛，全国二等奖</li>
             </ul>
         </section>
     </div>
