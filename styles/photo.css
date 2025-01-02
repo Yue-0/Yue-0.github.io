@@ -1,0 +1,45 @@
+/* author: YueLin */
+
+header img {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+header img:hover {
+    transform: scale(1.1);
+}
+
+.photos {
+    gap: 20px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.photo {
+    text-align: center;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, height 0.5s ease;
+}
+
+.photo img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.photo span {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #ffffff;
+}

@@ -1,0 +1,39 @@
+/* author: YueLin */
+
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #444444;
+}
+
+.link {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+a {
+    color: #0078d7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
