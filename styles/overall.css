@@ -1,19 +1,19 @@
 /* author: YueLin */
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
     color: #333333;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
     background: linear-gradient(to bottom, #f4f4f9, #eaeaea);
 }
 
 header {
-    background: #0078d7;
     color: #ffffff;
     padding: 20px 10px;
     text-align: center;
+    background: #0078d7;
 }
 
 .container {
@@ -26,9 +26,9 @@ header {
 }
 
 footer {
-    text-align: center;
-    margin-top: 20px;
     padding: 10px;
-    background: #0078d7;
+    margin-top: 20px;
     color: #ffffff;
+    text-align: center;
+    background: #0078d7;
 }
