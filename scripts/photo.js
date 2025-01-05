@@ -8,7 +8,7 @@ const photos = [
     {year: "2020", src: "img/2020.jpg"}
 ];
 
-const photo = document.getElementById("photo");
+const image = document.getElementById("photo");
 const container = document.getElementById("photos");
 
 photos.forEach(photo => {
@@ -26,14 +26,14 @@ photos.forEach(photo => {
     container.appendChild(div);
 });
 
-photo.addEventListener("mouseover", () => {
+image.addEventListener("mouseover", () => {
     document.querySelectorAll(".photo").forEach(item => {
         item.style.opacity = "1";
         item.style.height = "160px";
     });
 });
 
-photo.addEventListener("mouseout", () => {
+image.addEventListener("mouseout", () => {
     document.querySelectorAll(".photo").forEach(item => {
         item.style.opacity = "0";
         item.style.height = "0";

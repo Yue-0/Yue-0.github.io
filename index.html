@@ -30,109 +30,125 @@
                 目前，我在大连理工大学 IIAU Lab 攻读硕士研究生，受卢湖川教授指导，研究方向是机器人自主运动规划和视觉跟踪。
             </div>
 
-            <h2>论文</h2>
-
-            <div class="paper" onclick="callback(event, this)">
-                <div class="introduction">
-                    <div class="title">
-                        Safety-First Tracker: A Trajectory Planning Framework for Omnidirectional Robot Tracking
+            <div>
+                <h2>
+                    论文 
+                    <div class="show" onclick="papers(this)">
+                        <div class="arrow"></div>
                     </div>
-                    <div class="conference">
-                        IROS 2024, 第一作者
+                </h2>
+
+                <div class="paper" onclick="details(event, this)">
+                    <div class="introduction">
+                        <div class="title">
+                            Safety-First Tracker: A Trajectory Planning Framework for Omnidirectional Robot Tracking
+                        </div>
+                        <div class="level">
+                            IROS 2024, 第一作者
+                        </div>
+                    </div>
+                    <div class="details">
+                        <a href="https://ieeexplore.ieee.org/abstract/document/10802592"> 论文 </a> |
+                        <a href="https://github.com/user-attachments/assets/a8feecc0-e678-453f-9f09-61cce6f2eb47"> 视频 </a> |
+                        <a href="https://github.com/Yue-0/SF-Tracker"> 代码 </a><br>
+                        为了让机器人自动跟随目标并避免碰撞，现有的方法需要联合优化多个目标函数，难以保证最优性。本文设计了一种新的两阶段轨迹规划框架，优先保证机器人的轨迹安全性，然后规划机器人的朝向以保证目标可视性。现实世界的实验证明了本文提出的方法在复杂的动态环境中的适用性。
                     </div>
                 </div>
-                <div class="details">
-                    <a href="https://ieeexplore.ieee.org/abstract/document/10802592"> 论文 </a> |
-                    <a href="https://github.com/user-attachments/assets/a8feecc0-e678-453f-9f09-61cce6f2eb47"> 视频 </a> |
-                    <a href="https://github.com/Yue-0/SF-Tracker"> 代码 </a><br>
-                    为了让机器人自动跟随目标并避免碰撞，现有的方法需要联合优化多个目标函数，难以保证最优性。本文设计了一种新的两阶段轨迹规划框架，优先保证机器人的轨迹安全性，然后规划机器人的朝向以保证目标可视性。现实世界的实验证明了本文提出的方法在复杂的动态环境中的适用性。
+
+                <div class="paper" onclick="details(event, this)">
+                    <div class="introduction">
+                        <div class="title">
+                            Eva-Tracker: An ESDF-update-free Approach for Aerial Tracking with Visibility-aware Planning
+                        </div>
+                        <div class="level">
+                            ICRA 2025 在投, 第一作者
+                        </div>
+                    </div>
+                    <div class="details">
+                        对于机器人自动跟随目标，现有的方法大多需要依赖实时更新的 ESDF 来实现轨迹安全性和目标可视性，然而实时更新 ESDF 需要大量计算。本文提出了一种用于空中跟随的无需 ESDF 更新的轨迹优化方法，能够在保持性能的前提下大大降低计算量。现实世界的实验表明本文的方法在无人机目标跟随任务上取得了成功。
+                    </div>
                 </div>
             </div>
 
-            <div class="paper" onclick="callback(event, this)">
-                <div class="introduction">
-                    <div class="title">
-                        Eva-Tracker: An ESDF-update-free Approach for Aerial Tracking with Visibility-aware Planning
+            <div>
+                <h2>
+                    项目 
+                    <div class="show" onclick="projects(this)">
+                        <div class="arrow"></div>
                     </div>
-                    <div class="conference">
-                        ICRA 2025 在投, 第一作者
+                </h2>
+
+                <div class="project" onclick="details(event, this)">
+                    <div class="introduction">
+                        <div class="title">
+                            单智能体主动感知和对抗博弈建模学习
+                        </div>
+                        <div class="level">
+                            国家自然科学基金委员会重大项目, 技术负责人
+                        </div>
+                    </div>
+                    <div class="details">
+                        负责单机器人在对抗博弈场景下的系统框架开发及感知、规划、决策等算法的研发。基于 ROS 设计了完整的用于机器人博弈的软件系统，将 YOLOv6、HiT 等检测、跟踪算法和 FastPlanner 等规划算法集成部署到了 Orin 上，并和团队成员共同完成了博弈算法的研发。目前，该项目能够进行机器人 1v1 全自动对抗博弈。
                     </div>
                 </div>
-                <div class="details">
-                    对于机器人自动跟随目标，现有的方法大多需要依赖实时更新的 ESDF 来实现轨迹安全性和目标可视性，然而实时更新 ESDF 需要大量计算。本文提出了一种用于空中跟随的无需 ESDF 更新的轨迹优化方法，能够在保持性能的前提下大大降低计算量。现实世界的实验表明本文的方法在无人机目标跟随任务上取得了成功。
+
+                <div class="project" onclick="details(event, this)">
+                    <div class="introduction">
+                        <div class="title">
+                            开放环境多智能体群智对抗博弈理论方法及应用
+                        </div>
+                        <div class="level">
+                            国家自然科学基金委员会重大项目, 清华大学深圳国际研究生院交流合作项目
+                        </div>
+                    </div>
+                    <div class="details">
+                        负责开发全向移动机器人在带有坡道和窄道的环境中的自主运动规划算法。以 FastPlanner 为基础设计了用于针对坡道、窄道的全向机器人运动规划算法，该算法可使全向机器人在带有坡道和窄道的复杂未知环境中实现灵活避障和导航，最快速度达 2m/s。<br>
+                    </div>
+                </div>
+
+                <div class="project" onclick="details(event, this)">
+                    <div class="introduction">
+                        <div class="title">
+                            基于 Transformer 的轻量化目标跟踪方法研究
+                        </div>
+                        <div class="level">
+                            中国北方车辆研究所合作项目, 技术负责人
+                        </div>
+                    </div>
+                    <div class="details">
+                        视觉目标跟踪是机器人自动跟随目标的基础。现有的视觉跟踪方法不仅计算量大，而且对小型目标和频繁被遮挡的目标的跟踪效果差。本项目开发了一个高精度轻量化 SOT 模型，通过简洁而独特的网络设计和丢失处理模块，对小型目标和被遮挡的目标表现出鲁棒的性能，模型可在 JetSon Orin NX 边缘设备上以 110 FPS 的帧率实时运行。
+                    </div>
                 </div>
             </div>
 
-            <h2>项目</h2>
+            <div>
+                <h2>竞赛</h2>
 
-            <div class="project" onclick="callback(event, this)">
-                <div class="introduction">
-                    <div class="title">
-                        单智能体主动感知和对抗博弈建模学习
+                <div class="competition" onclick="details(event, this)">
+                    <div class="introduction">
+                        <div class="title">
+                            ICRA 2022 Sim2Real 挑战赛
+                        </div>
+                        <div class="level">
+                            全球第四名
+                        </div>
                     </div>
-                    <div class="conference">
-                        国家自然科学基金委员会重大项目, 技术负责人
-                    </div>
+                    <!-- <div class="details">
+                    </div> -->
                 </div>
-                <div class="details">
-                    负责单机器人在对抗博弈场景下的系统框架开发及感知、规划、决策等算法的研发。基于 ROS 设计了完整的用于机器人博弈的软件系统，将 YOLOv6、HiT 等检测、跟踪算法和 FastPlanner 等规划算法集成部署到了 Orin 上，并和团队成员共同完成了博弈算法的研发。目前，该项目能够进行机器人 1v1 全自动对抗博弈。
-                </div>
-            </div>
 
-            <div class="project" onclick="callback(event, this)">
-                <div class="introduction">
-                    <div class="title">
-                        开放环境多智能体群智对抗博弈理论方法及应用
+                <div class="competition" onclick="details(event, this)">
+                    <div class="introduction">
+                        <div class="title">
+                            2022 年中国大学生计算机设计大赛智慧零售挑战赛
+                        </div>
+                        <div class="level">
+                            全国第一名
+                        </div>
                     </div>
-                    <div class="conference">
-                        国家自然科学基金委员会重大项目, 清华大学深圳国际研究生院交流合作项目
-                    </div>
+                    <!-- <div class="details">
+                    </div> -->
                 </div>
-                <div class="details">
-                    负责开发全向移动机器人在带有坡道和窄道的环境中的自主运动规划算法。以 FastPlanner 为基础设计了用于针对坡道、窄道的全向机器人运动规划算法，该算法可使全向机器人在带有坡道和窄道的复杂未知环境中实现灵活避障和导航，最快速度达 2m/s。<br>
-                </div>
-            </div>
-
-            <div class="project" onclick="callback(event, this)">
-                <div class="introduction">
-                    <div class="title">
-                        基于 Transformer 的轻量化目标跟踪方法研究
-                    </div>
-                    <div class="conference">
-                        中国北方车辆研究所合作项目, 技术负责人
-                    </div>
-                </div>
-                <div class="details">
-                    视觉目标跟踪是机器人自动跟随目标的基础。现有的视觉跟踪方法不仅计算量大，而且对小型目标和频繁被遮挡的目标的跟踪效果差。本项目开发了一个高精度轻量化 SOT 模型，通过简洁而独特的网络设计和丢失处理模块，对小型目标和被遮挡的目标表现出鲁棒的性能，模型可在 JetSon Orin NX 边缘设备上以 110 FPS 的帧率实时运行。
-                </div>
-            </div>
-
-            <h2>竞赛</h2>
-
-            <div class="competition" onclick="callback(event, this)">
-                <div class="introduction">
-                    <div class="title">
-                        ICRA 2022 Sim2Real 挑战赛
-                    </div>
-                    <div class="conference">
-                        全球第四名
-                    </div>
-                </div>
-                <!-- <div class="details">
-                </div> -->
-            </div>
-
-            <div class="competition" onclick="callback(event, this)">
-                <div class="introduction">
-                    <div class="title">
-                        2022 年中国大学生计算机设计大赛智慧零售挑战赛
-                    </div>
-                    <div class="conference">
-                        全国第一名
-                    </div>
-                </div>
-                <!-- <div class="details">
-                </div> -->
             </div>
         </div>
 
@@ -141,7 +157,7 @@
             <p>联系邮箱: <a href="mailto:yuelin@mail.dlut.edu.cn" class="link">yuelin@mail.dlut.edu.cn</a></p>
         </footer>
 
-        <script src="scripts/item.js"></script>
         <script src="scripts/photo.js"></script>
+        <script src="scripts/callback.js"></script>
     </body>
 </html>
