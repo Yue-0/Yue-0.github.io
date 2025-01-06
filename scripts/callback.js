@@ -5,7 +5,7 @@ function hide(container)
     if(!container.classList.contains("hidden"))
     {
         container.style.height = container.scrollHeight + "px";
-        setTimeout(() => {container.style.height = "0px";}, 10);
+        setTimeout(() => {container.style.height = "0px";}, 5);
         container.classList.add("hidden");
     }
 }
@@ -21,8 +21,8 @@ function unhide(container)
 
 function invisible(containers)
 {
-    return Array.from(containers).some((c) => 
-        c.querySelector(".details").classList.contains("hidden")
+    return Array.from(containers).some(
+        (c) => c.querySelector(".details").classList.contains("hidden")
     );
 }
 
