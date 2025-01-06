@@ -33,7 +33,7 @@
             <div>
                 <h2>
                     论文 
-                    <div class="show" onclick="papers(this)">
+                    <div class="show" onclick="callback(this)">
                         <div class="arrow"></div>
                     </div>
                 </h2>
@@ -73,7 +73,7 @@
             <div>
                 <h2>
                     项目 
-                    <div class="show" onclick="projects(this)">
+                    <div class="show" onclick="callback(this)">
                         <div class="arrow"></div>
                     </div>
                 </h2>
@@ -122,7 +122,12 @@
             </div>
 
             <div>
-                <h2>竞赛</h2>
+                <h2>
+                    竞赛 
+                    <div class="show" onclick="callback(this)">
+                        <div class="arrow"></div>
+                    </div>
+                </h2>
 
                 <div class="competition" onclick="details(event, this)">
                     <div class="introduction">
@@ -133,8 +138,9 @@
                             全球第四名
                         </div>
                     </div>
-                    <!-- <div class="details">
-                    </div> -->
+                    <div class="details">
+                        比赛要求机器人在已知环境中自主寻找和抓取相应的矿石，并通过自主导航将其运送到指定的位置。选手只能在仿真环境中调试，比赛时使用真实环境。我在仿真环境中设计了高精度自主导航算法，并训练了轻量化的目标检测网络进行矿石识别。最终，算法可以直接迁移到真实机器人上，并获得了全球第四名。
+                    </div>
                 </div>
 
                 <div class="competition" onclick="details(event, this)">
@@ -146,14 +152,16 @@
                             全国第一名
                         </div>
                     </div>
-                    <!-- <div class="details">
-                    </div> -->
+                    <div class="details">
+                        比赛要求选手设计商品自动结算系统用于识别结算台上的商品并计算价格。我对 YOLOX 进行减支，使模型的参数量减少 20%，精度未见明显降低，从而可以在没有 GPU 的边缘端进行实时目标检测。最终，本作品获得该赛道全国第一名。
+                    </div>
                 </div>
             </div>
+
         </div>
 
         <footer>
-            <p>&copy; 2024 Yue Lin. All Rights Reserved.</p>
+            <p>&copy; 2025 Yue Lin. All Rights Reserved.</p>
             <p>联系邮箱: <a href="mailto:yuelin@mail.dlut.edu.cn" class="link">yuelin@mail.dlut.edu.cn</a></p>
         </footer>
 

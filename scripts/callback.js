@@ -15,7 +15,6 @@ function unhide(container)
     if(container.classList.contains("hidden"))
     {
         container.style.height = container.scrollHeight + "px";
-        setTimeout(() => {container.style.height = "auto";}, 1000);
         container.classList.remove("hidden");
     }
 }
@@ -35,9 +34,13 @@ function rotate(arrow, down)
         arrow.style.transform = "rotate(-135deg)";
 }
 
-function callback(element, name)
+/* Callback functions */
+
+function callback(element)
 {
-    const containers = document.querySelectorAll(name);
+    const containers = element.parentElement.parentElement.querySelectorAll(
+        ".paper, .project, .competition"
+    );
     const show = invisible(containers);
 
     containers.forEach((container) => {
@@ -48,8 +51,6 @@ function callback(element, name)
 
     rotate(element.querySelector(".arrow"), !show);
 }
-
-/* Callback functions */
 
 function details(event, element)
 {
@@ -65,14 +66,4 @@ function details(event, element)
         element.parentElement.querySelector(".arrow"),
         invisible(document.querySelectorAll("." + element.className))
     );
-}
-
-function papers(element)
-{
-    callback(element, ".paper");
-}
-
-function projects(element)
-{
-    callback(element, ".project");
 }
