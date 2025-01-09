@@ -15,6 +15,10 @@
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
+.section{
+    transition: all 0.3s ease;
+}
+
 .show {
     display: flex;
     padding: 10px;
@@ -48,7 +52,7 @@
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-.intro:hover, .paper:hover, .project:hover, .competition:hover {
+.profile:hover, .paper:hover, .project:hover, .competition:hover {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
@@ -62,6 +66,7 @@
     font-size: 16px;
     text-align: left;
     font-weight: bold;
+    transition: all 0.3s ease;
 }
 
 .level {
@@ -71,10 +76,12 @@
     margin-left: 10px;
     font-weight: bold;
     text-align: justify;
+    transition: all 0.3s ease;
 }
 
 .authors {
     font-size: 16px;
+    transition: all 0.3s ease;
 }
 
 .details {
@@ -83,7 +90,7 @@
     margin-top: 3px;
     color: #555555;
     overflow: hidden;
-    transition: height 1s ease, opacity 1s ease;
+    transition: height 1s ease, opacity 0.3s ease;
 }
 
 .details.hidden {

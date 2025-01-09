@@ -2,6 +2,7 @@
 
 h1 {
     color: #ffffff;
+    transition: opacity 0.3s ease
 }
 
 h2 {
@@ -12,8 +13,8 @@ h2 {
 
 .link {
     color: #ffd700;
-    text-decoration: none;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .link:hover {
@@ -23,19 +24,11 @@ h2 {
 
 a {
     color: #0078d7;
-    text-decoration: none;
     font-weight: bold;
+    text-decoration: none;
+    transition: opacity 0.3s ease
 }
 
 a:hover {
     text-decoration: underline;
-}
-
-ul {
-    padding: 0;
-    list-style: none;
-}
-
-ul li {
-    margin-bottom: 10px;
 }

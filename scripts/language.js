@@ -97,7 +97,17 @@ let language = "en";
 function update()
 {
     Object.entries(text[language]).forEach(([key, value]) => {
-        document.getElementById(key).innerHTML = value;
+        const element = document.getElementById(key);
+        element.style.opacity = 0;
+        setTimeout(() => {
+            element.innerHTML = value;
+            element.style.opacity = 1;
+        }, 300);
+    });
+    document.querySelectorAll(".details").forEach((details) => {
+        setTimeout(() => {
+            details.style.height = details.scrollHeight + "px";
+        }, 350);
     });
 }
 
@@ -105,5 +115,3 @@ function translation()
 {
     language = (language === "zh" ? "en" : "zh"); update();
 }
-
-update();
