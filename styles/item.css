@@ -1,6 +1,6 @@
 /* author: YueLin */
 
-.intro {
+.profile {
     padding: 10px;
     cursor: pointer;
     font-size: 15px;
@@ -17,10 +17,10 @@
 
 .show {
     display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 10px;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
 }
 
 .arrow {
@@ -71,6 +71,10 @@
     margin-left: 10px;
     font-weight: bold;
     text-align: justify;
+}
+
+.authors {
+    font-size: 16px;
 }
 
 .details {

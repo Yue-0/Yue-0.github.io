@@ -1,11 +1,11 @@
 /* author: YueLin */
 
 const photos = [
-    {year: "2024", src: "img/2024.jpg"},
-    {year: "2023", src: "img/2023.jpg"},
-    {year: "2022", src: "img/2022.jpg"},
-    {year: "2021", src: "img/2021.jpg"},
-    {year: "2020", src: "img/2020.jpg"}
+    {year: "2024", src: "images/photos/2024.jpg"},
+    {year: "2023", src: "images/photos/2023.jpg"},
+    {year: "2022", src: "images/photos/2022.jpg"},
+    {year: "2021", src: "images/photos/2021.jpg"},
+    {year: "2020", src: "images/photos/2020.jpg"}
 ];
 
 const image = document.getElementById("photo");

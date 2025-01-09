@@ -1,9 +1,10 @@
 <!-- author: YueLin -->
 
-<html lang="zh-CN">
+<html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/icon.css">
         <link rel="stylesheet" href="styles/item.css">
         <link rel="stylesheet" href="styles/label.css">
         <link rel="stylesheet" href="styles/photo.css">
@@ -14,25 +15,42 @@
     <body>
         <header>
             <div>
-                <img id="photo" src="img/2024.jpg" alt="Yue Lin">
+                <img id="photo" src="images/photos/2024.jpg">
                 <div class="photos" id="photos">
             </div>
-            <h1>林跃</h1>
-            <p> <a href="html/CV.html" class="link"> 简历 </a> | 
-                <a href="https://github.com/Yue-0" class="link"> GitHub </a></p>
+            <h1 id="name">Yue Lin</h1>
+            
+            <div class="icons">
+                <!-- <div class="icon">
+                    <img id="cv" src="images/icons/light/cv.svg">
+                </div> -->
+
+                <a href="https://github.com/Yue-0" class="icon">
+                    <img id="github" src="images/icons/light/github.svg">
+                </a>
+
+                <div class="translate" onclick="translation()">
+                    <img id="translate" src="images/icons/light/translate.svg">
+                </div>
+                
+                <!-- <div class="icon">
+                    <img id="light" src="images/icons/light/light.svg">
+                </div> -->
+            </div>
+        
         </header>
 
         <div class="container">
 
-            <div class="intro">
-                你好，我是林跃，这个网站是关于我的简短介绍。<br>
-                我于 2023 年在大连理工大学获得工学学士学位，并获得硕士研究生推免资格。<br>
-                目前，我在大连理工大学 IIAU Lab 攻读硕士研究生，受卢湖川教授指导，研究方向是机器人自主运动规划和视觉跟踪。
+            <div class="profile" id="profile">
+                Hi, I'm Yue Lin, this website is a brief introduction about me.<br>
+                I received my Bachelor of Engineering degree from Dalian University of Technology in 2023, and was recommended for a Master's degree. <br>
+                Currently, I'm a graduate student at IIAU Lab of Dalian University of Technology, under the guidance of Professor Huchuan Lu, and my research direction is autonomous motion planning and visual tracking of robots.
             </div>
 
             <div>
                 <h2>
-                    论文 
+                    <div id="papers"> Papers </div> 
                     <div class="show" onclick="callback(this)">
                         <div class="arrow"></div>
                     </div>
@@ -40,39 +58,52 @@
 
                 <div class="paper" onclick="details(event, this)">
                     <div class="introduction">
-                        <div class="title">
+                        <div class="title" id="iros24title">
                             Safety-First Tracker: A Trajectory Planning Framework for Omnidirectional Robot Tracking
                         </div>
-                        <div class="level">
-                            IROS 2024, 第一作者
+                        <div class="level" id="iros24">
+                            IROS 2024
                         </div>
                     </div>
+                    <div class="authors" id="iros24authors">
+                        <b>Yue Lin</b>, Yang Liu, Pingping Zhang, Xin Chen, Dong Wang, Huchuan Lu
+                    </div>
                     <div class="details">
-                        <a href="https://ieeexplore.ieee.org/abstract/document/10802592"> 论文 </a> |
-                        <a href="https://github.com/user-attachments/assets/a8feecc0-e678-453f-9f09-61cce6f2eb47"> 视频 </a> |
-                        <a href="https://github.com/Yue-0/SF-Tracker"> 代码 </a><br>
-                        为了让机器人自动跟随目标并避免碰撞，现有的方法需要联合优化多个目标函数，难以保证最优性。本文设计了一种新的两阶段轨迹规划框架，优先保证机器人的轨迹安全性，然后规划机器人的朝向以保证目标可视性。现实世界的实验证明了本文提出的方法在复杂的动态环境中的适用性。
+                        <a href="https://ieeexplore.ieee.org/abstract/document/10802592" id="iros24paper"> Paper </a> |
+                        <a href="https://github.com/user-attachments/assets/a8feecc0-e678-453f-9f09-61cce6f2eb47" id="iros24video"> Video </a> |
+                        <a href="https://github.com/Yue-0/SF-Tracker" id="iros24code"> Code </a><br>
+                        <div id="iros24details">
+                            We propose a two-stage trajectory planning framework that prioritizes the robot's trajectory safety and then plans the robot's orientation to ensure target visibility. Our method enables the robot to safely follow a target in complex dynamic environments.
+                        </div>
                     </div>
                 </div>
 
                 <div class="paper" onclick="details(event, this)">
                     <div class="introduction">
-                        <div class="title">
+                        <div class="title" id="icra25title">
                             Eva-Tracker: An ESDF-update-free Approach for Aerial Tracking with Visibility-aware Planning
                         </div>
-                        <div class="level">
-                            ICRA 2025 在投, 第一作者
+                        <div class="level" id="icra25">
+                            ICRA 2025 Submission
                         </div>
                     </div>
+                    <div class="authors" id="icra25authors">
+                        <b>Yue Lin</b>, Zihao Huang, Yang Liu, Dong Wang, Huchuan Lu
+                    </div>
                     <div class="details">
-                        对于机器人自动跟随目标，现有的方法大多需要依赖实时更新的 ESDF 来实现轨迹安全性和目标可视性，然而实时更新 ESDF 需要大量计算。本文提出了一种用于空中跟随的无需 ESDF 更新的轨迹优化方法，能够在保持性能的前提下大大降低计算量。现实世界的实验表明本文的方法在无人机目标跟随任务上取得了成功。
+                        <a href="" id="icra25paper"> Paper </a> |
+                        <a href="" id="icra25video"> Video </a> |
+                        <a href="https://github.com/Yue-0/Eva-Tracker" id="icra25code"> Code </a><br>
+                        <div id="icra25details">
+                            We designed a target tracking method for quadrotors without building environmental ESDF or safe flight corridors. We propose the pre-built FOV-ESDF to optimize target visibility, allowing the drone to stably track the target in complex environments and avoid collision and target occlusion.
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div>
                 <h2>
-                    项目 
+                    <div id="projects"> Projects </div> 
                     <div class="show" onclick="callback(this)">
                         <div class="arrow"></div>
                     </div>
@@ -80,50 +111,65 @@
 
                 <div class="project" onclick="details(event, this)">
                     <div class="introduction">
-                        <div class="title">
-                            单智能体主动感知和对抗博弈建模学习
+                        <div class="title" id="nsfc_title">
+                            Learning Active Perception and Adversarial Game Modeling of Single-agent
                         </div>
-                        <div class="level">
-                            国家自然科学基金委员会重大项目, 技术负责人
+                        <div class="level" id="nsfc">
+                            NSFC Major Project
                         </div>
                     </div>
+                    <div class="authors" id="nsfc_authors">
+                        <b>Yue Lin</b>, Peng Zhang, Hangyou Yu, Yang Liu, Dong Wang, Huchuan Lu
+                    </div>
                     <div class="details">
-                        负责单机器人在对抗博弈场景下的系统框架开发及感知、规划、决策等算法的研发。基于 ROS 设计了完整的用于机器人博弈的软件系统，将 YOLOv6、HiT 等检测、跟踪算法和 FastPlanner 等规划算法集成部署到了 Orin 上，并和团队成员共同完成了博弈算法的研发。目前，该项目能够进行机器人 1v1 全自动对抗博弈。
+                        <div id="nsfc_details">
+                            We use the RoboMaster2020 standard AI robot to conduct 1v1 fully automatic confrontation games. The robot can actively perceive the environment and enemy target, and establish intelligent strategies to automatically conduct confrontation games.
+                        </div>
                     </div>
                 </div>
 
                 <div class="project" onclick="details(event, this)">
                     <div class="introduction">
-                        <div class="title">
-                            开放环境多智能体群智对抗博弈理论方法及应用
+                        <div class="title" id="tsinghua_title">
+                            Methods and Applications of Multi-agent Confrontation Games in Open Environments
                         </div>
-                        <div class="level">
-                            国家自然科学基金委员会重大项目, 清华大学深圳国际研究生院交流合作项目
+                        <div class="level" id="tsinghua">
+                            NSFC Project, Tsinghua University Exchange Project
                         </div>
                     </div>
+                    <div class="authors" id="tsinghua_authors">
+                        Di Wu, Zijie Zhao, <b>Yue Lin</b>, Wenhao Zhou, Huchuan Lu, You He
+                    </div>
                     <div class="details">
-                        负责开发全向移动机器人在带有坡道和窄道的环境中的自主运动规划算法。以 FastPlanner 为基础设计了用于针对坡道、窄道的全向机器人运动规划算法，该算法可使全向机器人在带有坡道和窄道的复杂未知环境中实现灵活避障和导航，最快速度达 2m/s。<br>
+                        <div id="tsinghua_details">
+                            We developed multi-robot collaborative capture algorithms in open environments, including environmental perception, target recognition, motion planning, and strategy learning, so that the robot cluster can quickly and accurately capture an intelligent target in unknown environments.
+                        </div>
                     </div>
                 </div>
 
                 <div class="project" onclick="details(event, this)">
                     <div class="introduction">
-                        <div class="title">
-                            基于 Transformer 的轻量化目标跟踪方法研究
+                        <div class="title" id="201title">
+                            Research on Lightweight Object Tracking Method Based on Transformers
                         </div>
-                        <div class="level">
-                            中国北方车辆研究所合作项目, 技术负责人
+                        <div class="level" id="201">
+                            201 Institute Cooperation Projec
                         </div>
                     </div>
+                    <div class="authors" id="201authors">
+                        <b>Yue Lin</b>, Ziqi guan, Ben Kang, Xin Chen, Dong Wang, Huchuan Lu
+                    </div>
                     <div class="details">
-                        视觉目标跟踪是机器人自动跟随目标的基础。现有的视觉跟踪方法不仅计算量大，而且对小型目标和频繁被遮挡的目标的跟踪效果差。本项目开发了一个高精度轻量化 SOT 模型，通过简洁而独特的网络设计和丢失处理模块，对小型目标和被遮挡的目标表现出鲁棒的性能，模型可在 JetSon Orin NX 边缘设备上以 110 FPS 的帧率实时运行。
+                        <div id="201details">
+                            We deployed high-precision, lightweight Transformer-based object tracking models on JetSon Orin NX, which show robust performance for small and frequently occluded objects, and can run in real time on edge devices.
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div>
                 <h2>
-                    竞赛 
+                    <div id="competitions"> Competition </div>  
                     <div class="show" onclick="callback(this)">
                         <div class="arrow"></div>
                     </div>
@@ -132,28 +178,17 @@
                 <div class="competition" onclick="details(event, this)">
                     <div class="introduction">
                         <div class="title">
-                            ICRA 2022 Sim2Real 挑战赛
+                            ICRA 2022 Sim2Real Challenge
                         </div>
-                        <div class="level">
-                            全球第四名
-                        </div>
-                    </div>
-                    <div class="details">
-                        比赛要求机器人在已知环境中自主寻找和抓取相应的矿石，并通过自主导航将其运送到指定的位置。选手只能在仿真环境中调试，比赛时使用真实环境。我在仿真环境中设计了高精度自主导航算法，并训练了轻量化的目标检测网络进行矿石识别。最终，算法可以直接迁移到真实机器人上，并获得了全球第四名。
-                    </div>
-                </div>
-
-                <div class="competition" onclick="details(event, this)">
-                    <div class="introduction">
-                        <div class="title">
-                            2022 年中国大学生计算机设计大赛智慧零售挑战赛
-                        </div>
-                        <div class="level">
-                            全国第一名
+                        <div class="level" id="icra22">
+                            4th in the World
                         </div>
                     </div>
-                    <div class="details">
-                        比赛要求选手设计商品自动结算系统用于识别结算台上的商品并计算价格。我对 YOLOX 进行剪枝，使模型的参数量减少 20%，精度未见明显降低，从而可以在没有 GPU 的边缘端进行实时目标检测。最终，本作品获得该赛道全国第一名。
+                    <div class="authors" id="icra22authors">
+                        Shiyao Li, <b>Yue Lin</b>, Zuyao You, Jiansong Pei, Zeyun Wang, Feilong Wang
+                    </div>
+                    <div class="details" id="icra22details">
+                        We developed algorithms in a simulation environment that enable the robot to autonomously find and grab the corresponding ores, and autonomously navigate to transport them to the designated location. The algorithms developed in the simulation environment can be directly deployed on the real robot.
                     </div>
                 </div>
             </div>
@@ -167,5 +202,6 @@
 
         <script src="scripts/photo.js"></script>
         <script src="scripts/callback.js"></script>
+        <script src="scripts/language.js"></script>
     </body>
 </html>
