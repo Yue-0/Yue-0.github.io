@@ -1,6 +1,6 @@
 /* author: YueLin */
 
-var text = {
+const text = {
     "en": {
         "name": "Yue Lin",
 
