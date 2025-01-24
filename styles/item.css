@@ -1,6 +1,7 @@
 /* author: YueLin */
 
-.profile {
+.profile
+{
     padding: 10px;
     cursor: pointer;
     font-size: 15px;
@@ -15,11 +16,13 @@
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-.section{
+.section
+{
     transition: all 0.3s ease;
 }
 
-.show {
+.show
+{
     display: flex;
     padding: 10px;
     cursor: pointer;
@@ -27,7 +30,8 @@
     justify-content: center;
 }
 
-.arrow {
+.arrow
+{
     width: 10px;
     height: 10px;
     display: flex;
@@ -40,7 +44,8 @@
     transition: transform 0.3s ease;
 }
 
-.paper, .project, .competition {
+.paper, .project, .competition
+{
     padding: 10px;
     cursor: pointer;
     max-width: 1100px;
@@ -52,16 +57,19 @@
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-.profile:hover, .paper:hover, .project:hover, .competition:hover {
+.profile:hover, .paper:hover, .project:hover, .competition:hover
+{
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-.introduction {
+.introduction
+{
     display: flex;
     justify-content: space-between;
 }
 
-.title {
+.title
+{
     margin: 0;
     font-size: 16px;
     text-align: left;
@@ -69,7 +77,8 @@
     transition: all 0.3s ease;
 }
 
-.level {
+.level
+{
     margin: 0;
     font-size: 16px;
     color: #0078d7;
@@ -79,61 +88,15 @@
     transition: all 0.3s ease;
 }
 
-/* .text {
-    flex: 1;
-}
-
-.gif {
-    display: flex;
-    flex: 0 0 192px;
-    overflow: hidden;
-    margin-top: 10px;
-    position: relative;
-    align-items: center;
-}
-
-.gif img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 3px;
-    align-items: center;
-    transition: opacity 0.3s ease;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.gif img.static {
-    top: 0;
-    left: 0;
-    z-index: 1;
-    position: absolute;
-}
-
-.gif img.animated {
-    top: 0;
-    left: 0;
-    z-index: 0;
-    opacity: 0;
-    position: absolute;
-}
-
-.gif:hover img.static {
-    opacity: 0;
-    z-index: 1;
-}
-
-.gif:hover img.animated {
-    opacity: 1;
-    z-index: 2;
-} */
-
-.authors {
+.authors
+{
     font-size: 15px;
     color: #000000;
     transition: all 0.3s ease;
 }
 
-.details {
+.details
+{
     gap: 15px;
     height: auto;
     font-size: 15px;
@@ -144,7 +107,8 @@
     transition: height 1s ease, opacity 0.3s ease;
 }
 
-.details.hidden {
+.details.hidden
+{
     height: 0;
     opacity: 0;
     pointer-events: none;

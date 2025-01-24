@@ -1,6 +1,7 @@
 /* author: YueLin */
 
-header img {
+header img
+{
     width: 120px;
     height: 120px;
     cursor: pointer;
@@ -9,18 +10,21 @@ header img {
     transition: transform 0.3s ease;
 }
 
-header img:hover {
+header img:hover
+{
     transform: scale(1.1);
 }
 
-.photos {
+.photos
+{
     gap: 20px;
     display: flex;
     margin-top: 20px;
     justify-content: center;
 }
 
-.photo {
+.photo
+{
     height: 0;
     opacity: 0;
     overflow: hidden;
@@ -28,7 +32,8 @@ header img:hover {
     transition: opacity 0.5s ease, height 0.5s ease;
 }
 
-.photo img {
+.photo img
+{
     width: 120px;
     height: 120px;
     object-fit: cover;
@@ -36,7 +41,8 @@ header img:hover {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-.photo span {
+.photo span
+{
     display: block;
     margin-top: 5px;
     font-size: 14px;

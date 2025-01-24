@@ -1,11 +1,15 @@
-.icons {
+/* author: YueLin */
+
+.icons
+{
     gap: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.icon .translate {
+.icon .translate
+{
     display: flex;
     cursor: pointer;
     position: relative;
@@ -14,17 +18,20 @@
     transition: transform 0.3s ease;
 }
 
-.icon:hover {
+.icon:hover
+{
     transform: scale(1.1);
 }
 
-.icon img {
+.icon img
+{
     width: 32px;
     height: 32px;
     border-radius: 0;
 }
 
-.translate img {
+.translate img
+{
     width: 30px;
     height: 30px;
     border-radius: 0;

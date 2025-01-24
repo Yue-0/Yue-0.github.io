@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/icon.css">
         <link rel="stylesheet" href="styles/item.css">
+        <link rel="stylesheet" href="styles/image.css">
         <link rel="stylesheet" href="styles/label.css">
         <link rel="stylesheet" href="styles/photo.css">
         <link rel="stylesheet" href="styles/overall.css">
@@ -25,7 +26,7 @@
                     <img id="cv" src="images/icons/light/cv.svg">
                 </div> -->
 
-                <a href="https://github.com/Yue-0" class="icon">
+                <a href="https://github.com/Yue-0" class="icon" target="_blank">
                     <img id="github" src="images/icons/light/github.svg">
                 </a>
 
@@ -69,9 +70,9 @@
                         <div class="authors" id="iros24authors">
                             <b>Yue Lin</b>, Yang Liu, Pingping Zhang, Xin Chen, Dong Wang, Huchuan Lu
                         </div>
-                        <a href="https://ieeexplore.ieee.org/abstract/document/10802592" id="iros24paper"> Paper </a> |
-                        <a href="https://github.com/user-attachments/assets/a8feecc0-e678-453f-9f09-61cce6f2eb47" id="iros24video"> Video </a> |
-                        <a href="https://github.com/Yue-0/SF-Tracker" id="iros24code"> Code </a><br>
+                        <a href="https://ieeexplore.ieee.org/abstract/document/10802592" id="iros24paper" target="_blank"> Paper </a> |
+                        <a href="https://github.com/user-attachments/assets/a8feecc0-e678-453f-9f09-61cce6f2eb47" id="iros24video" target="_blank"> Video </a> |
+                        <a href="https://github.com/Yue-0/SF-Tracker" id="iros24code" target="_blank"> Code </a><br>
                         <div id="iros24details">
                             We propose a two-stage trajectory planning framework that prioritizes the robot's trajectory safety and then plans the robot's orientation to ensure target visibility. Our method enables the robot to safely follow a target in complex dynamic environments.
                         </div>
@@ -91,11 +92,11 @@
                         <div class="authors" id="icra25authors">
                             <b>Yue Lin</b>, Zihao Huang, Yang Liu, Dong Wang, Huchuan Lu
                         </div>
-                        <!-- <a href="" id="icra25paper"> Paper </a> | -->
-                        <!-- <a href="" id="icra25video"> Video </a> | -->
+                        <!-- <a href="" id="icra25paper" target="_blank"> Paper </a> | -->
+                        <!-- <a href="" id="icra25video" target="_blank"> Video </a> | -->
                         <span id="icra25paper"> Paper </span> |
                         <span id="icra25video"> Video </span> |
-                        <a href="https://github.com/Yue-0/Eva-Tracker" id="icra25code"> Code </a><br>
+                        <a href="https://github.com/Yue-0/Eva-Tracker" id="icra25code" target="_blank"> Code </a><br>
                         <div id="icra25details">
                             We designed a target tracking method for quadrotors without building environmental ESDF or safe flight corridors. We propose the pre-built FOV-ESDF to optimize target visibility, allowing the drone to stably track the target in complex environments and avoid collision and target occlusion.
                         </div>
@@ -115,9 +116,9 @@
                         <div class="authors" id="iros25authors">
                             <b>Yue Lin</b>, Xiaoxuan Zhang, Yang Liu, Dong Wang, Huchuan Lu
                         </div>
-                        <!-- <a href="" id="iros25paper"> Paper </a> | -->
-                        <!-- <a href="" id="iros25video"> Video </a> | -->
-                        <!-- <a href="" id="iros25code"> Code </a> -->
+                        <!-- <a href="" id="iros25paper" target="_blank"> Paper </a> | -->
+                        <!-- <a href="" id="iros25video" target="_blank"> Video </a> | -->
+                        <!-- <a href="" id="iros25code" target="_blank"> Code </a> -->
                         <span id="iros25paper"> Paper </span> |
                         <span id="iros25video"> Video </span> |
                         <span id="iros25code"> Code </span>
@@ -190,7 +191,7 @@
                             <b>Yue Lin</b>, Ziqi guan, Ben Kang, Xin Chen, Dong Wang, Huchuan Lu
                         </div>
                         <a href="images/images/201.gif" id="201video"> Video </a> |
-                        <a href="images/images/201.png" id="201framework"> Framework </a><br>
+                        <a href="images/images/201.png" id="201framework"  target="_blank"> Framework </a><br>
                         <div id="201details">
                             We developed a high-precision, lightweight single object tracking model based on Transformer for the 201 Institute. The model shows robust performance for small targets and frequently occluded targets, and can run in real time at 110 FPS on edge devices such as JetSon Orin NX.
                         </div>
@@ -220,7 +221,7 @@
                             Shiyao Li, <b>Yue Lin</b>, Zuyao You, Jiansong Pei, Zeyun Wang, Feilong Wang
                         </div>
                         <a href="images/images/icra22.gif" id="icra22video"> Video </a> |
-                        <a href="https://air.tsinghua.edu.cn/info/1007/1679.htm" id="icra22web"> Website </a><br>
+                        <a href="https://air.tsinghua.edu.cn/info/1007/1679.htm" id="icra22web" target="_blank"> Website </a><br>
                         <div id="icra22details">
                             We developed lightweight visual recognition and navigation algorithms in a simulation environment, which enabled the robot to autonomously search and grab the corresponding ores, and transport them to the designated location through autonomously navigation. The algorithms developed in the simulation environment can be directly deployed on the real robot.
                         </div>
@@ -230,11 +231,16 @@
 
         </div>
 
+        <div class="overlay" id="overlay">
+            <img id="gif" class="gif" src="">
+        </div>
+
         <footer>
             <p>&copy; 2025 Yue Lin. All Rights Reserved.</p>
             <p>Email: <a href="mailto:yuelin@mail.dlut.edu.cn" class="link">yuelin@mail.dlut.edu.cn</a></p>
         </footer>
 
+        <script src="scripts/image.js"></script>
         <script src="scripts/photo.js"></script>
         <script src="scripts/callback.js"></script>
         <script src="scripts/language.js"></script>
