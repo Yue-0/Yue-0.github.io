@@ -57,10 +57,7 @@ function callback(element)
 function display(event, element)
 {
     if(event.target.tagName === "A") return;
-
-    const details = element.querySelector(".details");
-    if(details.classList.contains("hidden")) unhide(details);
-
+    unhide(element.querySelector(".details"));
     rotate(
         element.parentElement.querySelector(".arrow"),
         invisible(document.querySelectorAll("." + element.className))
