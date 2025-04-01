@@ -32,6 +32,7 @@ const text = {
         "projects": "Projects",
 
         "nsfc_code": "Code",
+        "nsfc_video": "Video",
         "nsfc": "NSFC Major Project",
         "nsfc_authors": "<b>Yue Lin</b>, Peng Zhang, Hangyou Yu, Yang Liu, Dong Wang, Huchuan Lu",
         "nsfc_title": "Learning Active Perception and Adversarial Game Modeling of Single-agent",
@@ -90,6 +91,7 @@ const text = {
         "projects": "项目",
 
         "nsfc_code": "代码",
+        "nsfc_video": "视频",
         "nsfc": "国家自然科学基金重大项目",
         "nsfc_title": "单智能体主动感知和对抗博弈建模学习",
         "nsfc_authors": "<b>林跃</b>，张鹏，于沆佑，刘洋，王栋，卢湖川",
