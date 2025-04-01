@@ -31,7 +31,7 @@ const text = {
         
         "projects": "Projects",
 
-        "nsfc_video": "Video",
+        "nsfc_code": "Code",
         "nsfc": "NSFC Major Project",
         "nsfc_authors": "<b>Yue Lin</b>, Peng Zhang, Hangyou Yu, Yang Liu, Dong Wang, Huchuan Lu",
         "nsfc_title": "Learning Active Perception and Adversarial Game Modeling of Single-agent",
@@ -43,8 +43,8 @@ const text = {
         "tsinghua_title": "Methods and Applications of Multi-agent Confrontation Games in Open Environments",
         "tsinghua_details": "We developed multi-robot collaborative capture algorithms in open environments, including environmental perception, target recognition, motion planning, and strategy learning, so that the robot swarm can quickly and accurately capture an intelligent escaping target in unknown environments.",
 
+        "201code": "Code",
         "201video": "Video",
-        "201framework": "Framework",
         "201": "201 Institute Cooperation Project",
         "201authors": "<b>Yue Lin</b>, Ziqi guan, Ben Kang, Xin Chen, Dong Wang, Huchuan Lu",
         "201title": "Research on Lightweight Object Tracking Method Based on Transformers",
@@ -89,7 +89,7 @@ const text = {
         
         "projects": "项目",
 
-        "nsfc_video": "视频",
+        "nsfc_code": "代码",
         "nsfc": "国家自然科学基金重大项目",
         "nsfc_title": "单智能体主动感知和对抗博弈建模学习",
         "nsfc_authors": "<b>林跃</b>，张鹏，于沆佑，刘洋，王栋，卢湖川",
@@ -101,8 +101,8 @@ const text = {
         "tsinghua_title": "开放环境多智能体群智对抗博弈理论方法及应用",
         "tsinghua_details": "本项目以多智能体在开放环境中的感知、规划、决策和协同为研究内容，开发了在开放环境下的多机器人协同围捕系统，包含环境感知、目标识别、运动规划、策略学习等算法，使得机器人集群能够快速地在未知环境下对智能逃逸的目标实行精准围捕。",
 
+        "201code": "代码",
         "201video": "视频",
-        "201framework": "框架",
         "201": "中国北方车辆研究所合作项目",
         "201authors": "<b>林跃</b>，关子奇，康奔，陈鑫，王栋，卢湖川",
         "201title": "基于 Transformer 的轻量化目标跟踪方法研究",
