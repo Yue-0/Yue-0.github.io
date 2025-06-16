@@ -45,8 +45,9 @@
 
             <div class="profile" id="profile">
                 Hi, I'm Yue Lin, this website is a brief introduction about me.<br>
-                I received my Bachelor of Engineering degree from Dalian University of Technology in 2023, and was recommended for a Master's degree. <br>
-                Currently, I'm a graduate student at IIAU Lab of Dalian University of Technology, under the guidance of Professor Huchuan Lu, and my research direction is autonomous motion planning and visual tracking of robots.
+                I graduated from Dalian University of Technology in 2023 with a bachelor's degree in engineering and was subsequently recommended to pursue a master's degree as a graduate student in the IIAU Lab. <br>
+                My supervisor is Professor Huchuan Lu, and my research direction is robot autonomous motion planning and visual tracking. <br>
+                Currently, I'm interning at Hikvision in Hangzhou, where I'm involved in the development of autonomous navigation algorithms for robots.
             </div>
 
             <div>
@@ -56,6 +57,29 @@
                         <div class="arrow"></div>
                     </div>
                 </h2>
+
+                <div class="paper" onclick="display(event, this)">
+                    <div class="introduction">
+                        <div class="title" id="iros25title">
+                            GFM-Planner: Perception-Aware Trajectory Planning with Geometric Feature Metric
+                        </div>
+                        <div class="level" id="iros25">
+                            IROS 2025
+                        </div>
+                    </div>
+                    <div class="details">
+                        <div class="authors" id="iros25authors">
+                            <b>Yue Lin</b>, Xiaoxuan Zhang, Yang Liu, Dong Wang, Huchuan Lu
+                        </div>
+                        <!-- <a href="" id="iros25paper" target="_blank"> Paper </a> | -->
+                        <span id="iros25paper"> Paper </span> |
+                        <a href="https://github.com/user-attachments/assets/859af1e7-2bbc-4ee0-b38c-bcda333494cf" id="iros25video" target="_blank"> Video </a> |
+                        <a href="https://github.com/Yue-0/GFM-Planner" id="iros25code" target="_blank"> Code </a>
+                        <div id="iros25details">
+                            We propose a perception-aware trajectory planning framework with geometric feature metrics to improve the localization accuracy of autonomous robots. This method improves the LiDAR localization accuracy during navigation by enabling the robot to actively avoid areas that cause high localization errors.
+                        </div>
+                    </div>
+                </div>
 
                 <div class="paper" onclick="display(event, this)">
                     <div class="introduction">
@@ -82,7 +106,7 @@
                 <div class="paper" onclick="display(event, this)">
                     <div class="introduction">
                         <div class="title" id="ral25title">
-                            Eva-Tracker: An ESDF-update-free Approach for Aerial Tracking with Visibility-aware Planning
+                            Eva-Tracker: ESDF-update-free Visibility-aware Trajectory Planning for Aerial Tracking
                         </div>
                         <div class="level" id="ral25">
                             RA-L Submission
@@ -90,40 +114,16 @@
                     </div>
                     <div class="details">
                         <div class="authors" id="ral25authors">
-                            <b>Yue Lin</b>, Zihao Huang, Yang Liu, Dong Wang, Huchuan Lu
+                            <b>Yue Lin</b>, Yang Liu, Dong Wang, Huchuan Lu
                         </div>
                         <!-- <a href="" id="ral25paper" target="_blank"> Paper </a> | -->
                         <!-- <a href="" id="ral25video" target="_blank"> Video </a> | -->
+                        <!-- <a href="https://github.com/Yue-0/Eva-Tracker" id="ral25code" target="_blank"> Code </a><br> -->
                         <span id="ral25paper"> Paper </span> |
                         <span id="ral25video"> Video </span> |
-                        <a href="https://github.com/Yue-0/Eva-Tracker" id="ral25code" target="_blank"> Code </a><br>
+                        <span id="ral25code"> Code </span><br>
                         <div id="ral25details">
                             We designed a target tracking method for quadrotors without building environmental ESDF or safe flight corridors. We propose the pre-built FOV-ESDF to optimize target visibility, allowing the drone to stably track the target in complex environments and avoid collision and target occlusion.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="paper" onclick="display(event, this)">
-                    <div class="introduction">
-                        <div class="title" id="iros25title">
-                            GFM-Planner: Perception-Aware Trajectory Planning with Geometric Feature Metric
-                        </div>
-                        <div class="level" id="iros25">
-                            IROS 2025 Submission
-                        </div>
-                    </div>
-                    <div class="details">
-                        <div class="authors" id="iros25authors">
-                            <b>Yue Lin</b>, Xiaoxuan Zhang, Yang Liu, Dong Wang, Huchuan Lu
-                        </div>
-                        <!-- <a href="" id="iros25paper" target="_blank"> Paper </a> | -->
-                        <!-- <a href="" id="iros25video" target="_blank"> Video </a> | -->
-                        <!-- <a href="" id="iros25code" target="_blank"> Code </a> -->
-                        <span id="iros25paper"> Paper </span> |
-                        <span id="iros25video"> Video </span> |
-                        <span id="iros25code"> Code </span>
-                        <div id="iros25details">
-                            We propose a perception-aware trajectory planning framework with geometric feature metrics to improve the localization accuracy of autonomous robots. This method improves the LiDAR localization accuracy during navigation by enabling the robot to actively avoid areas that cause high localization errors.
                         </div>
                     </div>
                 </div>
@@ -147,9 +147,6 @@
                         </div>
                     </div>
                     <div class="details">
-                        <div class="authors" id="nsfc_authors">
-                            <b>Yue Lin</b>, Peng Zhang, Hangyou Yu, Yang Liu, Dong Wang, Huchuan Lu
-                        </div>
                         <span id="nsfc_video"> Video </span> | 
                         <a href="https://github.com/Yue-0/RMUA" id="nsfc_code" target="_blank"> Code </a><br>
                         <div id="nsfc_details">
@@ -168,9 +165,6 @@
                         </div>
                     </div>
                     <div class="details">
-                        <div class="authors" id="tsinghua_authors">
-                            Di Wu, Zijie Zhao, <b>Yue Lin</b>, Wenhao Zhou, Huchuan Lu, You He
-                        </div>
                         <span id="tsinghua_video"> Video </span>
                         <div id="tsinghua_details">
                             We developed multi-robot collaborative capture algorithms in open environments, including environmental perception, target recognition, motion planning, and strategy learning, so that the robot swarm can quickly and accurately capture an intelligent escaping target in unknown environments.
@@ -188,9 +182,6 @@
                         </div>
                     </div>
                     <div class="details">
-                        <div class="authors" id="201authors">
-                            <b>Yue Lin</b>, Ziqi guan, Ben Kang, Xin Chen, Dong Wang, Huchuan Lu
-                        </div>
                         <a href="images/images/201.gif" id="201video"> Video </a> |
                         <a href="https://github.com/Yue-0/VisualTracking-NX" id="201code" target="_blank"> Code </a><br>
                         <div id="201details">
