@@ -4,7 +4,7 @@ const text = {
     "en": {
         "name": "Yue Lin",
 
-        "profile": "Hi, I'm Yue Lin, this website is a brief introduction about me.<br>I graduated from Dalian University of Technology in 2023 with a bachelor's degree in engineering and was subsequently recommended to pursue a master's degree as a graduate student in the IIAU Lab. <br>My supervisor is Professor Huchuan Lu, and my research direction is robot autonomous motion planning and visual tracking. <br>Currently, I'm interning at Hikvision in Hangzhou, where I'm involved in the development of autonomous navigation algorithms for robots.",
+        "profile": "Hi, I'm Yue Lin, this website is a brief introduction about me.<br>I graduated from Dalian University of Technology in 2023 with a bachelor's degree in engineering and was subsequently recommended to pursue a master's degree as a graduate student in the IIAU Lab. <br>My supervisor is Professor Huchuan Lu, and my research direction is robot autonomous motion planning and visual tracking. <br>Currently, I'm interning at Hikvision in Hangzhou, where I'm involved in the development of autonomous tracking algorithms for robots.",
 
         "papers": "Papers",
 
@@ -22,12 +22,12 @@ const text = {
         "iros24authors": "<b>Yue Lin</b>, Yang Liu, Pingping Zhang, Xin Chen, Dong Wang, Huchuan Lu",
         "iros24details": "We propose a two-stage trajectory planning framework that prioritizes the robot's trajectory safety and then plans the robot's orientation to ensure target visibility. Our method enables the robot to safely follow a target in complex dynamic environments.",
 
-        "ral25": "RA-L Submission",
-        "ral25code": "Code",
-        "ral25paper": "Paper",
-        "ral25video": "Video",
-        "ral25authors": "<b>Yue Lin</b>, Yang Liu, Dong Wang, Huchuan Lu",
-        "ral25details": "We designed a target tracking method for quadrotors without building environmental ESDF or safe flight corridors. We propose the pre-built FOV-ESDF to optimize target visibility, allowing the drone to stably track the target in complex environments and avoid collision and target occlusion.",
+        "icra26": "ICRA 2026 Submission",
+        "icra26code": "Code",
+        "icra26paper": "Paper",
+        "icra26video": "Video",
+        "icra26authors": "<b>Yue Lin</b>, Yang Liu, Dong Wang, Huchuan Lu",
+        "icra26details": "We designed a target tracking method for quadrotors without building environmental ESDF or safe flight corridors. We propose the pre-built FOV-ESDF to optimize target visibility, allowing the drone to stably track the target in complex environments and avoid collision and target occlusion.",
         
         "projects": "Projects",
 
@@ -60,7 +60,7 @@ const text = {
     "zh": {
         "name": "林跃",
 
-        "profile": "你好，我是林跃，这个网站是关于我的简短介绍。<br>我于 2023 年在大连理工大学获得工学学士学位，并获得 IIAU Lab 的硕士研究生推免资格。<br>我的导师是卢湖川教授，研究方向是机器人自主运动规划和视觉跟踪。<br>目前，我是杭州海康威视的实习生，从事机器人自主导航算法的开发。",
+        "profile": "你好，我是林跃，这个网站是关于我的简短介绍。<br>我于 2023 年在大连理工大学获得工学学士学位，并获得 IIAU Lab 的硕士研究生推免资格。<br>我的导师是卢湖川教授，研究方向是机器人自主运动规划和视觉跟踪。<br>目前，我是杭州海康威视的实习生，从事机器人自主跟踪算法的开发。",
 
         "papers": "论文",
 
@@ -78,12 +78,12 @@ const text = {
         "iros24authors": "<b>林跃</b>，刘洋，张平平，陈鑫，王栋，卢湖川",
         "iros24details": "机器人自主跟随目标时需要实时避免环境中的静态和动态障碍物，并保持目标的可见性。本文提出了一种两阶段轨迹规划框架，优先保证机器人的轨迹安全性，然后规划机器人的朝向以保证目标可视性。本文提出的方法使机器人可以在复杂的动态环境中安全地跟随目标。",
 
-        "ral25": "RA-L 在投",
-        "ral25code": "代码",
-        "ral25paper": "论文",
-        "ral25video": "视频",
-        "ral25authors": "<b>林跃</b>，刘洋，王栋，卢湖川",
-        "ral25details": "为了让四旋翼飞行器在复杂环境中安全地自主跟随目标，并主动避免视野被障碍物遮挡，本文为设计了一种无需构建环境 ESDF 和安全飞行走廊的目标跟随方法，利用预构建的 FOV-ESDF 进行目标可视性优化，大大降低了规划过程中的计算复杂度，使得无人机能在复杂的环境中稳定地跟随目标，避免碰撞和目标遮挡。",
+        "icra26": "ICRA 2026 在投",
+        "icra26code": "代码",
+        "icra26paper": "论文",
+        "icra26video": "视频",
+        "icra26authors": "<b>林跃</b>，刘洋，王栋，卢湖川",
+        "icra26details": "为了让四旋翼飞行器在复杂环境中安全地自主跟随目标，并主动避免视野被障碍物遮挡，本文为设计了一种无需构建环境 ESDF 和安全飞行走廊的目标跟随方法，利用预构建的 FOV-ESDF 进行目标可视性优化，大大降低了规划过程中的计算复杂度，使得无人机能在复杂的环境中稳定地跟随目标，避免碰撞和目标遮挡。",
 
         "projects": "项目",
 
