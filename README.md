@@ -4,7 +4,7 @@
 
 📫 I graduated from [Dalian University of Technology](https://en.dlut.edu.cn) in 2023 with a bachelor's degree in engineering and was subsequently recommended to pursue a master's degree as a graduate student in the __IIAU Lab__. 
 
-🌱 My supervisor is [Professor Huchuan Lu](https://scholar.google.com/citations?user=D3nE0agAAAAJ), and my research direction is robot autonomous motion planning and visual tracking.
+🌱 My supervisor is [Professor Huchuan Lu](https://scholar.google.com/citations?user=D3nE0agAAAAJ), and my research direction is robot autonomous motion planning and tracking.
 
 🔭 Currently, I’m interning at [Hikvision](https://www.hikvision.com/en/) in Hangzhou, where I’m involved in the development of autonomous tracking algorithms for robots.
 
