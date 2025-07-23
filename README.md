@@ -6,7 +6,7 @@
 
 🌱 My supervisor is [Professor Huchuan Lu](https://scholar.google.com/citations?user=D3nE0agAAAAJ), and my research direction is robot autonomous motion planning and visual tracking.
 
-🔭 Currently, I’m interning at [Hikvision](https://www.hikvision.com/en/) in Hangzhou, where I’m involved in the development of autonomous navigation algorithms for robots.
+🔭 Currently, I’m interning at [Hikvision](https://www.hikvision.com/en/) in Hangzhou, where I’m involved in the development of autonomous tracking algorithms for robots.
 
 <!-- ## About my GitHub
 
