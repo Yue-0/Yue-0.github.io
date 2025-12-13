@@ -1,6 +1,7 @@
 /* author: YueLin */
 
 const photos = [
+    {year: "2025", src: "images/photos/2025.jpg"},
     {year: "2024", src: "images/photos/2024.jpg"},
     {year: "2023", src: "images/photos/2023.jpg"},
     {year: "2022", src: "images/photos/2022.jpg"},

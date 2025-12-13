@@ -6,8 +6,6 @@
 
 🌱 My supervisor is [Professor Huchuan Lu](https://scholar.google.com/citations?user=D3nE0agAAAAJ), and my research direction is robot autonomous motion planning and tracking.
 
-🔭 Currently, I’m interning at [Hikvision](https://www.hikvision.com/en/) in Hangzhou, where I’m involved in the development of autonomous tracking algorithms for robots.
-
 <!-- ## About my GitHub
 
 ![Most used languages](https://github-readme-stats.vercel.app/api/top-langs?username=Yue-0&exclude_repo=RMUA&card_width=350&layout=compact&langs_count=8&theme=transparent) ![GitHub stats](https://github-readme-stats.vercel.app/api?username=Yue-0&theme=transparent&hide_rank=false&rank_icon=github&include_all_commits=true&line_height=36&custom_title=My%20GitHub%20Stats&hide=contribs,prs) -->

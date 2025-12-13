@@ -4,7 +4,7 @@ const text = {
     "en": {
         "name": "Yue Lin",
 
-        "profile": "Hi, I'm Yue Lin, this website is a brief introduction about me.<br>I graduated from Dalian University of Technology in 2023 with a bachelor's degree in engineering and was subsequently recommended to pursue a master's degree as a graduate student in the IIAU Lab. <br>My supervisor is Professor Huchuan Lu, and my research direction is robot autonomous motion planning and visual tracking. <br>Currently, I'm interning at Hikvision in Hangzhou, where I'm involved in the development of autonomous tracking algorithms for robots.",
+        "profile": "Hi, I'm Yue Lin, this website is a brief introduction about me.<br>I graduated from Dalian University of Technology in 2023 with a bachelor's degree in engineering and was subsequently recommended to pursue a master's degree as a graduate student in the IIAU Lab. <br>My supervisor is Professor Huchuan Lu, and my research direction is robot autonomous motion planning and visual tracking.",
 
         "papers": "Papers",
 
@@ -13,7 +13,7 @@ const text = {
         "iros25paper": "Paper",
         "iros25video": "Video",
         "iros25authors": "<b>Yue Lin</b>, Xiaoxuan Zhang, Yang Liu, Dong Wang, Huchuan Lu",
-        "iros25details": "We propose a perception-aware trajectory planning framework with geometric feature metrics to improve the localization accuracy of autonomous robots. This method improves the LiDAR localization accuracy during navigation by enabling the robot to actively avoid areas that cause high localization errors.",
+        "iros25details": "We propose a perception-aware trajectory planning framework with geometric feature metrics to improve the LiDAR localization accuracy of autonomous robots during navigation by enabling the robot to actively avoid areas that cause high localization errors.",
 
         "iros24": "IROS 2024",
         "iros24code": "Code",
@@ -22,12 +22,12 @@ const text = {
         "iros24authors": "<b>Yue Lin</b>, Yang Liu, Pingping Zhang, Xin Chen, Dong Wang, Huchuan Lu",
         "iros24details": "We propose a two-stage trajectory planning framework that prioritizes the robot's trajectory safety and then plans the robot's orientation to ensure target visibility. Our method enables the robot to safely follow a target in complex dynamic environments.",
 
-        "icra26": "ICRA 2026 Submission",
+        "icra26": "ICRA 2026 Under Review",
         "icra26code": "Code",
         "icra26paper": "Paper",
         "icra26video": "Video",
         "icra26authors": "<b>Yue Lin</b>, Yang Liu, Dong Wang, Huchuan Lu",
-        "icra26details": "We designed a target tracking method for quadrotors without building environmental ESDF or safe flight corridors. We propose the pre-built FOV-ESDF to optimize target visibility, allowing the drone to stably track the target in complex environments and avoid collision and target occlusion.",
+        "icra26details": "We propose an ESDF-update-free, visibility-aware trajectory planning method for UAV target tracking, which enables UAVs to stably track targets in complex environments, avoid collisions and target occlusion, and recover lost targets effectively.",
         
         "projects": "Projects",
 
@@ -39,18 +39,18 @@ const text = {
 
         "tsinghua_video": "Video",
         "tsinghua": "Tsinghua University Exchange & NSFC Major Project",
-        "tsinghua_title": "Methods and Applications of Multi-agent Confrontation Games in Open Environments",
+        "tsinghua_title": "Multi-agent Confrontation Games in Open Environments",
         "tsinghua_details": "We developed multi-robot collaborative capture algorithms in open environments, including environmental perception, target recognition, motion planning, and strategy learning, so that the robot swarm can quickly and accurately capture an intelligent escaping target in unknown environments.",
 
         "201code": "Code",
         "201video": "Video",
         "201": "201 Institute Cooperation Project",
-        "201title": "Research on Lightweight Object Tracking Method Based on Transformers",
+        "201title": "Transformer-based Lightweight Object Tracking",
         "201details": "We developed a high-precision, lightweight single object tracking model based on Transformer for the 201 Institute. The model shows robust performance for small targets and frequently occluded targets, and can run in real time at 110 FPS on edge devices such as JetSon Orin NX.",
 
         "competitions": "Competition",
 
-        "icra22web": "Website",
+        "icra22news": "News",
         "icra22video": "Video",
         "icra22": "4th in the World",
         "icra22authors": "Shiyao Li, <b>Yue Lin</b>, Zuyao You, Jiansong Pei, Zeyun Wang, Feilong Wang",
@@ -60,7 +60,7 @@ const text = {
     "zh": {
         "name": "林跃",
 
-        "profile": "你好，我是林跃，这个网站是关于我的简短介绍。<br>我于 2023 年在大连理工大学获得工学学士学位，并获得 IIAU Lab 的硕士研究生推免资格。<br>我的导师是卢湖川教授，研究方向是机器人自主运动规划和视觉跟踪。<br>目前，我是杭州海康威视的实习生，从事机器人自主跟踪算法的开发。",
+        "profile": "你好，我是林跃，这个网站是关于我的简短介绍。<br>我于 2023 年在大连理工大学获得工学学士学位，并获得 IIAU Lab 的硕士研究生推免资格。<br>我的导师是卢湖川教授，研究方向是机器人自主运动规划和视觉跟踪。",
 
         "papers": "论文",
 
@@ -83,7 +83,7 @@ const text = {
         "icra26paper": "论文",
         "icra26video": "视频",
         "icra26authors": "<b>林跃</b>，刘洋，王栋，卢湖川",
-        "icra26details": "为了让四旋翼飞行器在复杂环境中安全地自主跟随目标，并主动避免视野被障碍物遮挡，本文为设计了一种无需构建环境 ESDF 和安全飞行走廊的目标跟随方法，利用预构建的 FOV-ESDF 进行目标可视性优化，大大降低了规划过程中的计算复杂度，使得无人机能在复杂的环境中稳定地跟随目标，避免碰撞和目标遮挡。",
+        "icra26details": "本文提出了一种无需更新 ESDF的具有可见性感知能力的空中目标跟踪轨迹规划方法，使无人机能够在复杂环境中稳定地跟踪目标，避免碰撞和目标遮挡，并具有在目标短时间内丢失的重找回功能。",
 
         "projects": "项目",
 
@@ -106,7 +106,7 @@ const text = {
 
         "competitions": "竞赛",
 
-        "icra22web": "网页",
+        "icra22news": "报道",
         "icra22video": "视频",
         "icra22": "全球第四名",
         "icra22authors": "李世垚，<b>林跃</b>，尤祖尧，裴健淞，王泽允，王飞龙",
