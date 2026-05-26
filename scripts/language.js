@@ -22,7 +22,7 @@ const text = {
         "iros24authors": "<b>Yue Lin</b>, Yang Liu, Pingping Zhang, Xin Chen, Dong Wang, Huchuan Lu",
         "iros24details": "We propose a two-stage trajectory planning framework that prioritizes the robot's trajectory safety and then plans the robot's orientation to ensure target visibility. Our method enables the robot to safely follow a target in complex dynamic environments.",
 
-        "icra26": "ICRA 2026 Under Review",
+        "icra26": "ICRA 2026",
         "icra26code": "Code",
         "icra26paper": "Paper",
         "icra26video": "Video",
@@ -31,13 +31,13 @@ const text = {
         
         "projects": "Projects",
 
-        "nsfc_code": "Code",
-        "nsfc_video": "Video",
+        // "nsfc_code": "Code",
+        // "nsfc_video": "Video",
         "nsfc": "NSFC Major Project",
         "nsfc_title": "Learning Active Perception and Adversarial Game Modeling of Single-agent",
         "nsfc_details": "We use the RoboMaster2020 standard AI robot to conduct 1v1 fully automatic confrontation games. The robot can actively perceive the environment and enemy target, and establish intelligent strategies to automatically conduct confrontation games.",
 
-        "tsinghua_video": "Video",
+        // "tsinghua_video": "Video",
         "tsinghua": "Tsinghua University Exchange & NSFC Major Project",
         "tsinghua_title": "Multi-agent Confrontation Games in Open Environments",
         "tsinghua_details": "We developed multi-robot collaborative capture algorithms in open environments, including environmental perception, target recognition, motion planning, and strategy learning, so that the robot swarm can quickly and accurately capture an intelligent escaping target in unknown environments.",
@@ -78,7 +78,7 @@ const text = {
         "iros24authors": "<b>林跃</b>，刘洋，张平平，陈鑫，王栋，卢湖川",
         "iros24details": "机器人自主跟随目标时需要实时避免环境中的静态和动态障碍物，并保持目标的可见性。本文提出了一种两阶段轨迹规划框架，优先保证机器人的轨迹安全性，然后规划机器人的朝向以保证目标可视性。本文提出的方法使机器人可以在复杂的动态环境中安全地跟随目标。",
 
-        "icra26": "ICRA 2026 在投",
+        "icra26": "ICRA 2026",
         "icra26code": "代码",
         "icra26paper": "论文",
         "icra26video": "视频",
@@ -87,13 +87,13 @@ const text = {
 
         "projects": "项目",
 
-        "nsfc_code": "代码",
-        "nsfc_video": "视频",
+        // "nsfc_code": "代码",
+        // "nsfc_video": "视频",
         "nsfc": "国家自然科学基金重大项目",
         "nsfc_title": "单智能体主动感知和对抗博弈建模学习",
         "nsfc_details": "本项目以单智能体在环境中的全自主感知、规划和决策为研究内容，使用 RoboMaster2020 标准 AI 机器人实现了 1v1 全自动对抗博弈。机器人能够主动感知环境和敌方目标，并建立智能策略自动进行对抗博弈。",
 
-        "tsinghua_video": "视频",
+        // "tsinghua_video": "视频",
         "tsinghua": "清华大学交流项目，国家自然科学基金重大项目",
         "tsinghua_title": "开放环境多智能体群智对抗博弈理论方法及应用",
         "tsinghua_details": "本项目以多智能体在开放环境中的感知、规划、决策和协同为研究内容，开发了在开放环境下的多机器人协同围捕系统，包含环境感知、目标识别、运动规划、策略学习等算法，使得机器人集群能够快速地在未知环境下对智能逃逸的目标实行精准围捕。",
